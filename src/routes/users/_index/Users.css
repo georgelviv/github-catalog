@@ -1,3 +1,11 @@
 .users {
   padding: 25px;
 }
+
+.users-header {
+  padding-bottom: 25px;
+}
+
+.users-form {
+  padding-bottom: 25px;
+}
