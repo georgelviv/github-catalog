@@ -4,8 +4,6 @@ import UserSearch from './components/UserSearch/UserSearch';
 import UserContent from './components/UserContent/UserContent';
 
 const Users = props => {
-  console.log(props);
-
   return (
     <div className="users">
       <header className="users-header">
