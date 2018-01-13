@@ -13,13 +13,13 @@ const Home = props => {
       </div>
       <div className="row">
         <div className="col">
-          <Link to='/repos'>
-            <button type="button" className="btn btn-outline-primary btn-lg btn-block">Repos</button>
+         <Link to='/users'>
+            <button type="button" className="btn btn-outline-primary btn-lg btn-block">Users</button>
           </Link>
         </div>
         <div className="col">
-          <Link to='/users'>
-            <button type="button" className="btn btn-outline-primary btn-lg btn-block">Users</button>
+          <Link to='/repos'>
+            <button type="button" className="btn btn-outline-primary btn-lg btn-block">Repos</button>
           </Link>
         </div>
       </div>
