@@ -1,13 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
+import { Link } from 'react-router-dom';
 import './Layout.css';
 
 const Layout = props => {
   return (
     <div className="layout">
       <header className="layout-header">
-        <img src={logo} className="layout-logo" alt="logo" />
-        <h1 className="layout-title">Welcome to React</h1>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+          <Link className="navbar-brand" to="/">Home</Link>
+        </nav>
       </header>
       <main>
         { props.children }

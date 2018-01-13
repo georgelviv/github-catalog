@@ -1,11 +1,12 @@
 import React from 'react';
+import './Users.css';
 
-const Repos = props => {
+const Users = props => {
   return (
-    <div>
-      Repos
+    <div className="users">
+      <h2>Users</h2>
     </div>
   );
 }
 
-export default Repos;
+export default Users;
